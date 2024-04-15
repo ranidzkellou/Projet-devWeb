@@ -1,0 +1,43 @@
+Notes :
+
+Use the fonts
+You can use any images you like for now 
+Leave the Href blank for now 
+
+Rani : 
+- Home page 
+- Kids page 
+
+Amine_C : 
+- people page : 
+	make it exaclty like the design 
+	the Cards div must be Scrollable
+	optional : you can make it functionale (filters-click on cards ...) - use the animations you like  
+- About us page : 
+	same thing 
+	add google maps in the blank area
+
+Amine_L : 
+- Challenges : 
+	same thing 
+	you can add a bookmark button in the cards
+
+- PixelCode : 
+	same things
+	you dont have to make it functional just looks
+
+Imade : 
+- Acadimics page : 
+	Same things 
+	Optional : you can add other pages (Master - Doctorat)\
+- Reclamation Page : 
+	Make the text field functionnal 
+	add a send button 
+	Optional : Check error if email is correct or not 
+- Exams Page 
+
+Ramy : 
+- Events Page :
+	same things 
+- Students Page
+- News Page 
