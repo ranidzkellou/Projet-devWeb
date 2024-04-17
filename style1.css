@@ -1,0 +1,36 @@
+.container {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-auto-columns: 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+}
+
+.header {
+    grid-area: 1 / 1 / 2 / 2;
+}
+
+.down-header {
+    grid-area: 2 / 1 / 3 / 2;
+    background-color: rgba(78, 43, 43, 0.852);
+}
+
+.wst {
+    grid-area: 3 / 1 / 4 / 2;
+}
+
+.wst1 {
+    grid-area: 4 / 1 / 5 / 2;
+}
+
+.wst2 {
+    grid-area: 5 / 1 / 6 / 2;
+}
+
+.wst3 {
+    grid-area: 6 / 1 / 7 / 2;
+}
+
+.down {
+    grid-area: 8 / 1 / 9 / 2;
+}
