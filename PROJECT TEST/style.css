@@ -118,23 +118,22 @@ color: #ffbe5d;
 }
 
 
-.checkbox-container input[type="checkbox"] { 
-  width: 20px; 
-  height: 20px; 
-  margin-right: 10px;  
-  appearance: none; 
-  background-color: #553429;  
-  cursor: pointer;  
-  position: relative;  
-}
 input[type="checkbox"]:checked {
-  accent-color:#553429 ;
+  accent-color: #58342c; /* Replace with your desired color code */
 }
 
-.vl  {  border-left: 3px solid #58342c ;
+.vl {  border-left: 3px solid #58342c ;
   height: 2100px;  position:absolute;
   left: 15%;  margin-left: -15px;
   top: 1;}
+
+.hrr{
+  background-color:#58342c ;
+  width: 90px;
+  height: 2px; 
+  margin-right: 60px;
+}
+
 
 
   
