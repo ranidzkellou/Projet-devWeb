@@ -1,6 +1,6 @@
 .container {  display: grid;
   grid-template-columns: 0.3fr 0.3fr 3.1fr 0.3fr;
-  grid-template-rows: 0.3fr 0.1fr 1.5fr 1.5fr 1.5fr 0.3fr;
+  grid-template-rows: 0.2fr 0.2fr 0.8fr 1.5fr 0.9fr 0.1fr;
   gap: 0px 0px;
   grid-auto-flow: column;
   grid-template-areas:
@@ -20,12 +20,18 @@
 
 .bigsentence { grid-area: bigsentence; }
 
-.LMD { grid-area: LMD; }
-
 .thirdspace { grid-area: thirdspace; }
 
 .secondspace { grid-area: secondspace; }
 
+.LMD { grid-area: LMD; }
+
+
+
+
+body{
+  margin: 0px;
+}
 
 #midely{
   float: right;
@@ -123,7 +129,7 @@ input[type="checkbox"]:checked {
 }
 
 .vl {  border-left: 3px solid #58342c ;
-  height: 2100px;  position:absolute;
+  height: 1500px;  position:absolute;
   left: 15%;  margin-left: -15px;
   top: 1;}
 
@@ -133,9 +139,16 @@ input[type="checkbox"]:checked {
   height: 2px; 
   margin-right: 60px;
 }
+#lmersi{
+  float: right;
+  margin-bottom: auto;
+}
+#singincolor{
+
+color: black;
+}
 
 
 
-  
 
 
