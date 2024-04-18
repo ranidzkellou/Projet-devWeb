@@ -1,217 +1,118 @@
 .container {
     display: grid;
-    grid-template-columns: 1fr 0.9fr 1.1fr 1fr 1fr;
-    grid-template-rows: 0.7fr 0.1fr 0.6fr 0.6fr 0.6fr 0.6fr 3.8fr;
-    grid-auto-columns: 1fr;
-    grid-auto-rows: 1fr;
+    grid-template-columns: 0.3fr 0.2fr 3.2fr 0.3fr;
+    grid-template-rows: 0.3fr 0.1fr 0.2fr 4.1fr 0.3fr;
     gap: 0px 0px;
     grid-auto-flow: row;
-    grid-template-areas: "header header header header header" "miniheader miniheader miniheader miniheader miniheader" "page1 page2 pic1 pic2 pic3" "page1 page2 pic4 pic5 pic6" "page1 page2 pic7 pic8 pic9" "page1 page2 pic10 pic11 pic12" ". . . . .";
+    grid-template-areas: "header header header header" "header1 header1 header1 header1" ". body1 body1 ." ". season profiles ." ". . . .";
 }
 
 .header {
     grid-area: header;
 }
 
-.page1 {
-    grid-area: page1;
+.header1 {
+    grid-area: header1;
 }
 
-.page2 {
-    grid-area: page2;
+.body1 {
+    grid-area: body1;
 }
 
-.pic1 {
+.profiles {
     display: grid;
-    grid-template-columns: 1.6fr 0.5fr 1.1fr;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 0.3fr 1fr 1fr 1fr 1fr;
     gap: 0px 0px;
     grid-auto-flow: row;
-    grid-template-areas: ". ktiba1 ktiba1" ". ktiba1 ktiba1" ". ktiba1 ktiba1";
-    grid-area: pic1;
+    grid-area: profiles;
 }
 
-.ktiba1 {
-    grid-area: ktiba1;
+.pf1 {
+    grid-area: 1 / 1 / 2 / 2;
 }
 
-.pic2 {
-    display: grid;
-    grid-template-columns: 1.5fr 0.5fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-    gap: 0px 0px;
-    grid-auto-flow: row;
-    grid-template-areas: ". ktiba2 ktiba2" ". ktiba2 ktiba2" ". ktiba2 ktiba2";
-    grid-area: pic2;
+.pf2 {
+    grid-area: 1 / 2 / 2 / 3;
 }
 
-.ktiba2 {
-    grid-area: ktiba2;
+.pf3 {
+    grid-area: 1 / 3 / 2 / 4;
 }
 
-.pic3 {
-    display: grid;
-    grid-template-columns: 1.5fr 0.5fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-    gap: 0px 0px;
-    grid-auto-flow: row;
-    grid-template-areas: ". ktiba3 ktiba3" ". ktiba3 ktiba3" ". ktiba3 ktiba3";
-    grid-area: pic3;
+.pf4 {
+    grid-area: 2 / 1 / 3 / 2;
 }
 
-.ktiba3 {
-    grid-area: ktiba3;
+.pf5 {
+    grid-area: 2 / 2 / 3 / 3;
 }
 
-.pic4 {
-    display: grid;
-    grid-template-columns: 1.5fr 0.5fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-    gap: 0px 0px;
-    grid-auto-flow: row;
-    grid-template-areas: ". ktiba4 ktiba4" ". ktiba4 ktiba4" ". ktiba4 ktiba4";
-    grid-area: pic4;
+.pf6 {
+    grid-area: 2 / 3 / 3 / 4;
 }
 
-.ktiba4 {
-    grid-area: ktiba4;
+.pf7 {
+    grid-area: 3 / 1 / 4 / 2;
 }
 
-.pic5 {
-    display: grid;
-    grid-template-columns: 1.5fr 0.5fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-    gap: 0px 0px;
-    grid-auto-flow: row;
-    grid-template-areas: ". ktiba5 ktiba5" ". ktiba5 ktiba5" ". ktiba5 ktiba5";
-    grid-area: pic5;
+.pf8 {
+    grid-area: 3 / 2 / 4 / 3;
 }
 
-.ktiba5 {
-    grid-area: ktiba5;
+.pf9 {
+    grid-area: 3 / 3 / 4 / 4;
 }
 
-.pic6 {
-    display: grid;
-    grid-template-columns: 1.5fr 0.5fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-    gap: 0px 0px;
-    grid-auto-flow: row;
-    grid-template-areas: ". ktiba6 ktiba6" ". ktiba6 ktiba6" ". ktiba6 ktiba6";
-    grid-area: pic6;
+.pf10 {
+    grid-area: 4 / 1 / 5 / 2;
 }
 
-.ktiba6 {
-    grid-area: ktiba6;
+.pf11 {
+    grid-area: 4 / 2 / 5 / 3;
 }
 
-.pic7 {
-    display: grid;
-    grid-template-columns: 1.5fr 0.5fr 1fr;
-    grid-template-rows: 1.1fr 0.7fr 1.2fr;
-    gap: 0px 0px;
-    grid-auto-flow: row;
-    grid-template-areas: ". ktiba7 ktiba7" ". ktiba7 ktiba7" ". ktiba7 ktiba7";
-    grid-area: pic7;
+.pf12 {
+    grid-area: 4 / 3 / 5 / 4;
 }
 
-.ktiba7 {
-    grid-area: ktiba7;
+.medly {
+    grid-area: 1 / 1 / 2 / 4;
 }
 
-.pic8 {
-    display: grid;
-    grid-template-columns: 1.5fr 0.5fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-    gap: 0px 0px;
-    grid-auto-flow: row;
-    grid-template-areas: ". ktiba8 ktiba8" ". ktiba8 ktiba8" ". ktiba8 ktiba8";
-    grid-area: pic8;
+.season {
+    grid-area: season;
 }
 
-.ktiba8 {
-    grid-area: ktiba8;
+body {
+    margin: 0px;
 }
 
-.pic9 {
-    display: grid;
-    grid-template-columns: 1.5fr 0.5fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-    gap: 0px 0px;
-    grid-auto-flow: row;
-    grid-template-areas: ". ktiba10 ktiba10" ". ktiba10 ktiba10" ". ktiba10 ktiba10";
-    grid-area: pic9;
+input {
+    align-self: start;
+    width: auto;
 }
 
-.ktiba10 {
-    grid-area: ktiba10;
+.vl {
+    border-left: 3px solid #58342c;
+    height: 1500px;
+    position: absolute;
+    left: 15%;
+    margin-left: -15px;
+    top: 1;
 }
 
-.pic10 {
-    display: grid;
-    grid-template-columns: 1.5fr 0.7fr 0.8fr;
-    grid-template-rows: 1fr 1fr 1fr;
-    gap: 0px 0px;
-    grid-auto-flow: row;
-    grid-template-areas: ". ktiba13 ktiba13" ". ktiba13 ktiba13" ". ktiba13 ktiba13";
-    grid-area: pic10;
-}
-
-.ktiba13 {
-    grid-area: ktiba13;
-}
-
-.pic11 {
-    display: grid;
-    grid-template-columns: 1.5fr 0.5fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-    gap: 0px 0px;
-    grid-auto-flow: row;
-    grid-template-areas: ". ktiba11 ktiba11" ". ktiba11 ktiba11" ". ktiba11 ktiba11";
-    grid-area: pic11;
-}
-
-.ktiba11 {
-    grid-area: ktiba11;
-}
-
-.pic12 {
-    display: grid;
-    grid-template-columns: 1.5fr 0.5fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-    gap: 0px 0px;
-    grid-auto-flow: row;
-    grid-template-areas: ". ktiba12 ktiba12" ". ktiba12 ktiba12" ". ktiba12 ktiba12";
-    grid-area: pic12;
-}
-
-.ktiba12 {
-    grid-area: ktiba12;
-}
-
-.miniheader {
-    grid-area: miniheader;
-}
-
-.thicker-hr {
+.hrr {
+    background-color: #58342c;
+    width: 90px;
     height: 2px;
-    /* Adjust height to make it thicker */
-    border: none;
-    /* Remove the default border */
-    background-color: #000;
-    /* Set a background color */
+    margin-right: 60px;
 }
 
-.page2 {
-    width: 2px;
-    /* Adjust width to make it thicker */
-    height: 600px;
-    /* Set the height of the vertical line */
-    background-color: #000;
-    /* Set a background color */
+#here {
+    color: black;
 }
 
-.prof {
-    width: 100px;
-    height: 100px;
+.img {
+    width: 250px;
 }
