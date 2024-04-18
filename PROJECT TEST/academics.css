@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .container {
     display: grid;
     grid-template-columns: 0.3fr 0.3fr 3.1fr 0.3fr;
@@ -5,6 +6,20 @@
     gap: 0px 0px;
     grid-auto-flow: column;
     grid-template-areas: "Header Header Header Header" ". bigsentence bigsentence ." ". LMD first-space ." ". LMD secondspace ." ". LMD thirdspace ." "footer footer footer footer";
+=======
+.container {  display: grid;
+  grid-template-columns: 0.3fr 0.3fr 3.1fr 0.3fr;
+  grid-template-rows: 0.2fr 0.2fr 0.8fr 1.5fr 0.9fr 0.2fr;
+  gap: 0px 0px;
+  grid-auto-flow: column;
+  grid-template-areas:
+    "Header Header Header Header"
+    ". bigsentence bigsentence ."
+    ". LMD first-space ."
+    ". LMD secondspace ."
+    ". LMD thirdspace ."
+    "footer footer footer footer";
+>>>>>>> b554c34e18511ee7cb710b7912040cf9a3a4d600
 }
 
 .Header {
@@ -143,6 +158,7 @@ input[type="checkbox"]:checked {
     /* Replace with your desired color code */
 }
 
+<<<<<<< HEAD
 .vl {
     border-left: 3px solid #58342c;
     height: 1500px;
@@ -150,6 +166,26 @@ input[type="checkbox"]:checked {
     left: 15%;
     margin-left: -15px;
     top: 1;
+=======
+.vl {  border-left: 3px solid #58342c ;
+  height: 1400px;  position:absolute;
+  left: 15%;  margin-left: -15px;
+  top: 1;}
+
+.hrr{
+  background-color:#58342c ;
+  width: 90px;
+  height: 2px; 
+  margin-right: 60px;
+}
+#lmersi{
+  float: right;
+  margin-bottom: auto;
+}
+#singincolor{
+
+color: black;
+>>>>>>> b554c34e18511ee7cb710b7912040cf9a3a4d600
 }
 
 .hrr {
@@ -168,6 +204,11 @@ input[type="checkbox"]:checked {
     color: black;
 }
 
+<<<<<<< HEAD
 #here {
     color: black;
 }
+=======
+
+
+>>>>>>> b554c34e18511ee7cb710b7912040cf9a3a4d600
