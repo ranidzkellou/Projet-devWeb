@@ -1,0 +1,141 @@
+.container {  display: grid;
+  grid-template-columns: 0.3fr 0.3fr 3.1fr 0.3fr;
+  grid-template-rows: 0.3fr 0.1fr 1.5fr 1.5fr 1.5fr 0.3fr;
+  gap: 0px 0px;
+  grid-auto-flow: column;
+  grid-template-areas:
+    "Header Header Header Header"
+    ". bigsentence bigsentence ."
+    ". LMD first-space ."
+    ". LMD secondspace ."
+    ". LMD thirdspace ."
+    "footer footer footer footer";
+}
+
+.Header { grid-area: Header; }
+
+.footer { grid-area: footer; }
+
+.first-space { grid-area: first-space; }
+
+.bigsentence { grid-area: bigsentence; }
+
+.LMD { grid-area: LMD; }
+
+.thirdspace { grid-area: thirdspace; }
+
+.secondspace { grid-area: secondspace; }
+
+
+#midely{
+  float: right;
+  margin-left: 10px;
+}
+.boxdisplay{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+}
+.box{
+  height: 150px;
+  width: 250px;
+  font-size:8em ;
+  color: white;
+  text-align: center;
+}
+#box1{
+  background-color:#58342c ;
+}
+#box2{
+  background-color:#58342c ;
+}
+#box3{
+  background-color:#58342c ;
+}
+
+.boxdisplay2{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 20px;
+  }
+
+.smallbox{
+height: 30px;
+width: 250px;
+color: #ffbe5d;
+}
+#box3{
+  background-color:#58342c ;
+}
+#box4{
+  background-color:#58342c ;
+}
+#box5{
+  background-color:#58342c ;
+}
+
+.boxdisplay3{
+  height: 30px;
+  display: flex;
+  text-align: center;
+  font-size: 20px;
+  flex-direction:row-reverse ;
+  color: white;
+  
+}
+#boxisil{
+
+  background-color:#c0744c;
+  
+  width: 125px;
+}
+#boxSI{
+
+  background-color:#58342c;
+  width: 125px;
+}
+
+.boxdisplay4{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 20px;
+}
+.boxsghir{
+  height: 30px;
+  width: 250px;
+
+}
+#box10{
+  background-color: #e8e4e4;
+}
+#box30{
+  background-color: #e8e4e4;
+}
+#box40{
+  background-color: #e8e4e4;
+}
+
+
+input[type="checkbox"]:checked {
+  accent-color: #58342c; /* Replace with your desired color code */
+}
+
+.vl {  border-left: 3px solid #58342c ;
+  height: 2100px;  position:absolute;
+  left: 15%;  margin-left: -15px;
+  top: 1;}
+
+.hrr{
+  background-color:#58342c ;
+  width: 90px;
+  height: 2px; 
+  margin-right: 60px;
+}
+
+
+
+  
+
+
