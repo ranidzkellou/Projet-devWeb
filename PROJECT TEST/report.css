@@ -1,0 +1,132 @@
+.container {  display: grid;
+    grid-template-columns: 0.3fr 3.1fr 0.3fr;
+    grid-template-rows: 0.2fr 0.2fr 0.5fr 0.6fr 0.2fr;
+    gap: 0px 0px;
+    grid-auto-flow: column;
+    grid-template-areas:
+      "Header Header Header"
+      ". bigsentence ."
+      ". first-space ."
+      ". secondspace ."
+      "footer footer footer";
+  }
+  
+  .Header { grid-area: Header; }
+  
+  .footer { grid-area: footer; }
+  
+  .first-space { grid-area: first-space; }
+  
+  .bigsentence { grid-area: bigsentence; }
+  
+  .secondspace {  display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 0.6fr 1.4fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "fmsq fmsq fmsq"
+      "fstq scnq thdq";
+    grid-area: secondspace;
+  }
+  
+  .fmsq { grid-area: fmsq; }
+  
+  .fstq { grid-area: fstq; }
+  
+  .scnq { grid-area: scnq; }
+  
+  .thdq { grid-area: thdq; }
+  
+  
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#reportfrm {
+    text-align: center;
+}
+
+form {
+    background-color: #2596be;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+textarea {
+    resize: vertical;
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #689ccc;
+}
+
+
+.fstq{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    }
+.boxsghir{
+    height: 55px;
+    width: 230px;
+    color: white;
+    
+ }
+#qst{
+    font-size: 25px;   
+    flex-direction: row;
+    text-align: center;
+    background-color:#10345c
+}
+.answer{
+    height: 170px;
+    background-color:#689ccc ;
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    }
+
+.scnq{
+        display: flex;
+        justify-content: center;
+        }
+
+.thdq{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    }

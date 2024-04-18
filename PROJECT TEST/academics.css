@@ -1,6 +1,6 @@
 .container {  display: grid;
   grid-template-columns: 0.3fr 0.3fr 3.1fr 0.3fr;
-  grid-template-rows: 0.2fr 0.2fr 0.8fr 1.5fr 0.9fr 0.1fr;
+  grid-template-rows: 0.2fr 0.2fr 0.8fr 1.5fr 0.9fr 0.2fr;
   gap: 0px 0px;
   grid-auto-flow: column;
   grid-template-areas:
@@ -129,7 +129,7 @@ input[type="checkbox"]:checked {
 }
 
 .vl {  border-left: 3px solid #58342c ;
-  height: 1500px;  position:absolute;
+  height: 1400px;  position:absolute;
   left: 15%;  margin-left: -15px;
   top: 1;}
 
@@ -147,6 +147,7 @@ input[type="checkbox"]:checked {
 
 color: black;
 }
+
 
 
 
